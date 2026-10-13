@@ -21,10 +21,10 @@ section {
 /* Main Title */
 h1 {
   width: 100%;
-  font-size: 42px;
+  font-size: 50px;
   margin-bottom: 5px;
   color: #fff7f7;
-  font-family: "Audiowide", cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
@@ -35,7 +35,7 @@ h1 {
   width: 100%;
   color: #dcdcdc;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
 }
@@ -49,6 +49,8 @@ h1 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+
+
 /* Movie Image */
 .movie img {
   width: 100%;
@@ -56,6 +58,11 @@ h1 {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 15px;
+}
+
+.movie:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgb(100, 95, 149);
 }
 
 /* Movie Title */
@@ -80,8 +87,8 @@ h1 {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 12px;
-  background: #989588;
-  color: #222;
+  background: #6c6f65;
+  color: #313037;
   border-radius: 20px;
   font-weight: bold;
 }

@@ -6,7 +6,7 @@ function App(){
 return (
   <section>
 
-      <h1> Movie Playlist</h1>
+      <h1> 🍿 Movie Playlist 🍿</h1>
       <p className="subtitle">A collection of unforgettable stories</p>
       
       <div className="movie">
@@ -31,6 +31,12 @@ return (
           <img src="src/assets/nowhere.jpg" alt="Nowhere" />
           <h2>Nowhere</h2>
           <p>action • 2023</p>
+        </div>
+
+        <div className="movie">
+          <img src="src/assets/mouse.jpg" alt="Mouse" />
+          <h2>Mouse</h2>
+          <p>thriller • 2021</p>
         </div>
 
 
